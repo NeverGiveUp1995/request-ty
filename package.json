@@ -1,6 +1,6 @@
 {
   "name": "request-ty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于promise的一个ajax请求封装",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "request"
   ],
   "dependencies": {
-    "query-to-string": "^1.0.0"
+    "query-to-string": "^1.0.1"
   },
   "author": "ty",
   "license": "ISC"
