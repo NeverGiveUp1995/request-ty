@@ -1,0 +1,18 @@
+{
+  "name": "request-ty",
+  "version": "1.0.0",
+  "description": "基于promise的一个ajax请求封装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ajax",
+    "request"
+  ],
+  "dependencies": {
+    "query-to-string": "^1.0.0"
+  },
+  "author": "ty",
+  "license": "ISC"
+}
