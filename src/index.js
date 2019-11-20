@@ -60,10 +60,12 @@ export default function ({url, method = 'get', params, data, contentType = 'appl
         xhr.open(method, url, true)
         //4. 发送请求
         switch (method.toUpperCase()) {
+            // case  "GET"||"DELETE":
             case "GET":
             case  "DELETE":
                 xhr.send()
                 break
+            // case  "POST"||"PUT":
             case  "POST":
             case  "PUT":
                 //设置请求头Content-Type(默认为json)
